@@ -1,3 +1,5 @@
+"BUDGET TRACKER"
+
 '''Track Income & Expenses:
 
 Allow users to input income and categorize expenses (e.g., rent, groceries, utilities, etc.).
@@ -20,18 +22,6 @@ Keep track of past expenses with a list, where each is a tuple (category, amount
 Exceptions:
 
 Handle errors gracefully, such as invalid input types (e.g., entering a string when a number is expected).'''
-
-'''category = input('\n Enter the expense category (e.g.  grocries, rent): ')
-expense = float(input('enter the expense amount: '))
-
-thedict = {
-    'bobo':'hello',
-    'me':'yins'
-}
-
-thedict.update({category: expense})
-
-print(thedict)'''
 
 Category = None
 Expense = 0
